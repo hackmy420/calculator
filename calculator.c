@@ -4,37 +4,33 @@ int main()
 {
     int num1,num2;
     float result;
-    char ch;    //to store operator choice
+    int opr;    //to store operator choice
      
     printf("Enter first number: ");
     scanf("%d",&num1);
     printf("Enter second number: ");
     scanf("%d",&num2);
      
-    printf("Choose operation to perform (+,-,*,/,%): ");
-    scanf(" %c",&ch);
+    printf("Choose operation to perform 1.add\n2.subtract\n3.multiply\n4.division: ");
+    scanf(" %d",&opr);
      
     result=0;
     switch(ch)    
     {
-        case '+':
+        case '1':
             result=num1+num2;
             break;
              
-        case '-':
+        case '2':
             result=num1-num2;
             break;
          
-        case '*':
+        case '3':
             result=num1*num2;
             break;
              
-        case '/':
+        case '4':
             result=(float)num1/(float)num2;
-            break;
-             
-        case '%':
-            result=num1%num2;
             break;
         default:
             printf("operation does not exist.\n");
