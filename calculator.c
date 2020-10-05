@@ -37,7 +37,7 @@ int main()
             result=num1%num2;
             break;
         default:
-            printf("Invalid operation.\n");
+            printf("operation does not exist.\n");
     }
  
     printf("Result: %d %c %d = %f\n",num1,ch,num2,result);
