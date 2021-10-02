@@ -36,11 +36,11 @@ int main()
         default:
             printf("operation does not exist.\n");
     }
+    printf("Result: %d %c %d = %f\n",num1,ch,num2,result);
    int p;
-   printf("Enter your choice again");
+   printf("Enter your choice again or press 5 to exit");
    scanf("%d",&p);
    opr=p;
  }
-    printf("Result: %d %c %d = %f\n",num1,ch,num2,result);
     return 0;
 }
