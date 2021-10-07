@@ -1,9 +1,9 @@
+//Programme in c to make a simple calculator
 #include <stdio.h>
- 
 int main()
 {
-    int num1,num2;
-    float result;
+    int num1,num2;//to store first number and second number.
+    float result;//to store the result.
     int opr;    //to store operator choice
      
     printf("Enter first number: ");
