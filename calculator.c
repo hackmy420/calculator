@@ -1,4 +1,4 @@
-//Programme in c to make a simple calculator
+//write a c program to perform arithmetic operation. 
 #include <stdio.h>
 int main()
 {
@@ -15,7 +15,7 @@ int main()
     scanf(" %d",&opr);
      
     result=0;
- while(opr!=5){
+    while(opr!=5){
     switch(ch)    
     {
         case '1':
