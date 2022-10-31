@@ -40,7 +40,7 @@
    break;
 
     default:
-      printf("INVALID OPERATOR");
+      printf("Invalid operation");
        break;
    }    
  
