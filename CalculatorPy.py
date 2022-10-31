@@ -15,7 +15,7 @@ def multiply(x, y):
 # This function divides two numbers
 def divide(x, y):
     return x / y
-
+# This function moduler two numbers
 def moduler(x, y):
     return x % y
 
